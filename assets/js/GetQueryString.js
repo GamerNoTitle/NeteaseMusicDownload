@@ -9,7 +9,7 @@ function GetQueryString(name) {
     return context == null || context == "" || context == "undefined" ? "" : context;
 }
 alert(GetQueryString("id"))
-if (GetQueryString("id") == null){
+if (GetQueryString("id") == ''){
     undefined
 }
 else{
