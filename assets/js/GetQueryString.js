@@ -12,5 +12,5 @@ if (GetQueryString("id") == ''){
     undefined
 }
 else{
-    window.open('https://music.163.com/song/media/outer/url?id='+GetQueryString("id")+'.mp3','_blank');
+    window.open('https://music.163.com/song/media/outer/url?id='+GetQueryString("id")+'.mp3','_self');
 }
