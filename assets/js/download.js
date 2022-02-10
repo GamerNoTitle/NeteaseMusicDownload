@@ -3,7 +3,7 @@ function openNew(){
     const NeteaseReg = new RegExp('music.163.com')
     const schemeReg = new RegExp('^https?://')
     if(NeteaseReg.test(link) && schemeReg.test(link)) {
-        var ToOpen = link.replace("music.163.com", "music.ninym.top").replace("/#/","/");  //防止解析暴毙
+        var ToOpen = link.replace("music.163.com", "api.ninym.top").replace("/#/","/");  //防止解析暴毙
         window.open(ToOpen);
     }
     else{
