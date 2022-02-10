@@ -9,4 +9,4 @@ function GetQueryString(name) {
     return context == null || context == "" || context == "undefined" ? "" : context;
 }
 
-window.onload = window.location='https://music.163.com/song/media/outer/url?id='+GetQueryString("id")+'.mp3';
+window.open('https://music.163.com/song/media/outer/url?id='+GetQueryString("id")+'.mp3');
