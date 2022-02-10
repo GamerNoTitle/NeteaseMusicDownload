@@ -8,7 +8,6 @@ function GetQueryString(name) {
     r = null;
     return context == null || context == "" || context == "undefined" ? "" : context;
 }
-alert(GetQueryString("id"))
 if (GetQueryString("id") == ''){
     undefined
 }
