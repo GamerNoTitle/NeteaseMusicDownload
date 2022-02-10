@@ -8,5 +8,9 @@ function GetQueryString(name) {
     r = null;
     return context == null || context == "" || context == "undefined" ? "" : context;
 }
-
-window.open('https://music.163.com/song/media/outer/url?id='+GetQueryString("id")+'.mp3');
+if (GetQueryString == null){
+    undefined
+}
+else{
+    window.open('https://music.163.com/song/media/outer/url?id='+GetQueryString("id")+'.mp3');
+}
