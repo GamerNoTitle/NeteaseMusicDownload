@@ -1,4 +1,5 @@
 function openNew(){
+    console.log('感谢使用GamerNoTitle提供的网易云音乐下载服务！')
     var link = document.getElementById("link").value;
     const NeteaseReg = new RegExp('music.163.com')
     const schemeReg = new RegExp('^https?://')
