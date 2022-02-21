@@ -4,4 +4,8 @@
 
 网易云音乐自助下载网站，因为网易的策略，不能试听（或者不能听完整歌曲的）歌下载不了，如果返回了网易的404页面就说明歌曲无法下载
 
+## 关于API
+
+API文档：[https://ninym.top/zh/api/NeteaseMusic](https://ninym.top/zh/api/NeteaseMusic)
+
 **小白代码 大佬勿喷**
